@@ -98,6 +98,8 @@ span {
     font-size: var(--small-font);
     padding: 5px;
     color: var(--primary-color);
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
 }
 
 .box #todo-form input::placeholder,
