@@ -138,6 +138,10 @@ span {
     line-height: var(--line-height);
 }
 
+.box #weather span:last-child {
+    margin-left: 5px;
+}
+
 @media screen and (max-width:480px){
     .box #clock {
         font-size: 4rem;
