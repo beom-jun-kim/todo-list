@@ -115,13 +115,6 @@ span {
     font-size: var(--small-font);
 }
 
-.box #login-form button {
-    width: 70px;
-    height: 30px;
-    line-height: 27px;
-    text-transform: uppercase;
-}
-
 .box #todo-list button,
 .box #login-form button {
     background: var(--primary-color);
@@ -130,6 +123,13 @@ span {
     transform: translateX(20px);
     cursor: pointer;
     padding: 2px 5px;
+}
+
+.box #login-form button {
+    width: 70px;
+    height: 30px;
+    line-height: 27px;
+    text-transform: uppercase;
 }
 
 .box #quote span {
@@ -151,5 +151,6 @@ span {
 
     .box #login-form button {
         margin-top: 20px;
+        transform: translateX(0);
     }
 }
