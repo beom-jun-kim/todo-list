@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>random</title>
+</head>
+
+<body>
+
+    <div class="overlay"></div>
+
+    <div class="box">
+
+        <!-- clock -->
+        <h2 id="clock">00:00:00</h2>
+
+        <!-- greeting -->
+        <h1 id="greeting" class="hidden"></h1>
+        <form id="login-form" class="hidden">
+            <input required maxlength="15" type="text" placeholder="what is your name?">
+            <button>log in</button>
+        </form>
+
+        <!-- todo list -->
+        <form id="todo-form">
+            <input type="text" placeholder="write a To Do and Press" required>
+        </form>
+        <ul id="todo-list"></ul>
+
+        <!-- quote -->
+        <div id="quote">
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- weather -->
+        <id id="weather">
+            <span></span>
+            <span></span>
+        </id>
+
+    </div>
+
+
+    <script src="/js/greetings.js"></script>
+    <script src="/js/clock.js"></script>
+    <script src="/js/quotes.js"></script>
+    <script src="/js/background.js"></script>
+    <script src="/js/todo.js"></script>
+    <script src="/js/weather.js"></script>
+
+</body>
+
+</html>
