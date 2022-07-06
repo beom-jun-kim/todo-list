@@ -142,4 +142,14 @@ span {
     .box #clock {
         font-size: 4rem;
     }
+
+    .box #login-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box #login-form button {
+        margin-top: 20px;
+    }
 }
